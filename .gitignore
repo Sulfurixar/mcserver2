@@ -5,7 +5,7 @@
 .mixin/**
 .persistent/**
 **/*.dat
-**/crash
+**/crash*
 logs/**
 **/*.log
 **/*.json
