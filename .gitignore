@@ -4,6 +4,7 @@
 **/.curseClient
 .mixin/**
 .mixin*
+.mixin.out/**
 .persistent/**
 **/*.dat
 **/crash*
