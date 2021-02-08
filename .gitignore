@@ -11,4 +11,4 @@ logs/**
 **/*.json
 saves/**
 options.txt
-/crash-reports/**
+crash-reports/**
