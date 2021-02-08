@@ -1,0 +1,7 @@
+
+[general]
+	main_background_color = "#2B2B2B"
+	progress_start_color = "#FF0000"
+	progress_end_color = "#00FF00"
+	logo_color = "#FF0000"
+

@@ -1,0 +1,23 @@
+
+[biomes]
+	customBiomeMappings = []
+	resetAllTerrain = false
+
+[blockentity]
+	autoBlacklistErroredTEs = true
+	blockblacklist = ["minecraft:bedrock"]
+	teblacklist = []
+
+[client]
+	asyncModelLoads = true
+
+[explosions]
+	affectAir = true
+	explosionRadius = 127
+	generateCache = true
+	maxMsPerTick = 25
+	minBlastEffect = 0.25
+
+[misc]
+	debug = true
+

@@ -1,0 +1,49 @@
+#Globally disable all toggleable functionality
+disabled = false
+#Maximum amount of threads; will never create more threads
+#than there are CPU threads (as that causeses Context switch churning)
+#Values <=1 are treated as 'all cores'
+#Range: > -1
+timeoutCount = -1
+
+[world]
+	#Disable world parallelisation
+	disableWorld = false
+
+[entity]
+	#Disable entity parallelisation
+	disableEntity = false
+
+[te]
+	#Disable tile entity parallelisation
+	disableTileEntity = false
+	#Use chunklocks for any unknown (i.e. modded) tile entities
+	#Chunklocking means we prevent multiple tile entities a 1 chunk radius of eachother being ticked to limit concurrency impacts
+	chunkLockModded = true
+	#List of tile entity classes that will always be fully parallelised
+	#This will occur even when chunkLockModded is set to true
+	#Adding pistons to this will not parallelise them
+	teWhiteList = []
+	#List of tile entity classes that will always be chunklocked
+	#This will occur even when chunkLockModded is set to false
+	teBlackList = []
+
+[environment]
+	#Disable environment (plant ticks, etc.) parallelisation
+	disableEnvironment = false
+
+[misc]
+	#Disable parallelised chunk caching; doing this will result in much lower performance with little to no gain
+	disableChunkProvider = false
+
+	[misc.load-forcing]
+		#Enable chunk loading timeouts; this will forcably kill any chunks that fail to load in sufficient time
+		#may allow for loading of damaged/corrupted worlds
+		enableChunkTimeout = false
+		#Attempts to re-load timed out chunks; Seems to work
+		enableTimeoutReload = false
+		#Ammount of workless iterations to wait before declaring a chunk load attempt as timed out
+		#This is in ~100us itterations (plus minus yield time) so timeout >= timeoutCount*100us
+		#Range: 500 ~ 500000
+		timeoutCount = 5000
+

@@ -1,0 +1,8 @@
+
+#Classes Configurations
+[classes]
+	#Should the gui open on the players first join?
+	openOnFirstJoin = false
+	#Should players receive daily rewards?
+	doDailyRewards = true
+

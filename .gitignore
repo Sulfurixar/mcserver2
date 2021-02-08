@@ -1,0 +1,16 @@
+# GITIGNORE
+
+# Client Files
+**/.curseClient
+.mixin/**
+.mixin*
+.mixin.out/**
+.persistent/**
+**/*.dat
+**/crash*
+logs/**
+**/*.log
+**/*.json
+saves/**
+options.txt
+crash-reports/**
