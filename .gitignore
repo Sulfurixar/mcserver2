@@ -3,6 +3,7 @@
 # Client Files
 **/.curseClient
 .mixin/**
+.mixin*
 .persistent/**
 **/*.dat
 **/crash*
