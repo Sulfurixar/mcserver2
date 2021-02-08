@@ -1,0 +1,3 @@
+#structurize.config.excludeentities.comment
+excludeEntities = ["minecraft:iron_golem", "minecraft:wolf"]
+

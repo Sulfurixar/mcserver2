@@ -1,0 +1,43 @@
+
+#Settings for stick crafting
+[sticks]
+	RemoveSticksFromPlanksRecipes = true
+
+#Settings for rock and ore rock drops
+[rocks]
+	Enable = true
+	ReplaceStoneDrops = true
+	ReplaceIronOreDrops = true
+	ReplaceGoldOreDrops = true
+	ReplaceModOreDrops = true
+	ReplacePoorOreDrops = true
+
+#Settings for recipes
+[recipes]
+	CobbleRequiresClay = true
+
+#Settings for the drying rack block
+[drying_rack]
+	EnableMeatRotting = true
+	EnableRottenDrying = true
+	EnableJerky = true
+	EnableMeatDrying = true
+	EnableLeatherTanning = true
+	EnableSaddleCrafting = true
+
+#Settings for the dough/bread replacements
+[bread]
+	Enable = true
+	RemoveVanillaBread = true
+
+#Settings for the chopping block
+[chopping]
+	#If enabled, the vanilla planks recipes will be disabled, using the log to craft choppingblock instead.
+	#If disabled, the chopping block uses an alternate recipe, instead of using a single log as an input.
+	ReplacePlanksRecipes = true
+
+#Settings for the fibre collection
+[fibres]
+	DropStringFromSheep = true
+	EnableStringCrafting = true
+

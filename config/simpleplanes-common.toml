@@ -1,0 +1,57 @@
+
+#Planes settings
+[general]
+	#Version, do not change
+	#Range: > 0
+	Version = 5
+	#For controllers, a threshold for the joystick movement of the plane
+	#Range: 0 ~ 90
+	turnThreshold = 20
+	#easier flight mode, disables the extreme movements
+	easyFlight = false
+	#planes crash on bad landings
+	planeCrash = true
+	#can players steal planes
+	plane_heist = true
+	#disabled_mods, examples: bop,ft,byg
+	disabled_mods = []
+
+[engines]
+
+	[engines.coal]
+		#Ticks of flying per one coal burn time
+		#Range: > 0
+		flyTicksPerCoal = 160
+		#Max Fuel For Coal Plane
+		#Range: > 0
+		maxFlyTicksCoal = 1600
+
+	[engines.botania]
+		#mana amount to use when out
+		#Range: > 0
+		mana_cost = 32000
+		#number of flight ticks per mana usage
+		#Range: > 0
+		fly_ticks_per_mana = 800
+
+	[engines."forge energy"]
+		#FE amount the chrager use per tick
+		#Range: > 0
+		charger_fe_cost = 600
+		#number of flight ticks per charging tick
+		#Range: > 0
+		fly_ticks_charge_tick = 5
+		#max flight range for FE plane
+		#Range: > 0
+		energy_max_fuel = 20000
+
+	[engines.lava]
+		#Cool down on the fueling station
+		#Range: > 4
+		charger_fe_cost = 200
+		#max flight range the liquid fuel charges
+		#Range: > 0
+		energy_max_fuel = 20000
+		#max flight range for FE plane
+		liquid_fuels = ["lava#2000", "car:bio_diesel#2000"]
+
