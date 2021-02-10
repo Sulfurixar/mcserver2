@@ -516,3 +516,36 @@
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
 	max = 65536.0
 
+#Values for the kemonocraft:max_hp attribute.
+[kemonocraft_max_hp]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 4.9E-324
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 1.7976931348623157E308
+
+#Values for the kemonocraft:armor attribute.
+[kemonocraft_armor]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 4.9E-324
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 1.7976931348623157E308
+
+#Values for the kemonocraft:damage attribute.
+[kemonocraft_damage]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 4.9E-324
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 1.7976931348623157E308
+
