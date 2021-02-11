@@ -1,0 +1,10 @@
+
+#Client only settings
+[client]
+	#whether this addon should do stuff
+	#available values: [true, false]
+	debug = false
+	#whether this addon should do stuff
+	#available values: [true, false]
+	enabled = true
+
