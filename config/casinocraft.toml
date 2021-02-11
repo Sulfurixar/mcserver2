@@ -1,0 +1,10 @@
+#Activate Creative Toggle on Card Tables
+config_allowed_creative = true
+#Transfer Tokens instantly
+config_fastload = true
+#Face Cards do a one frame animation sometimes
+config_animated_cards = true
+#How long until a player receives a timeout
+#Range: 1 ~ 10000
+config_timeout = 300
+
