@@ -143,10 +143,10 @@
 		#Starting player health, in half-hearts (20 = 10 hearts)
 		startingHealth = 10
 		#The minimum amount of health a player can have (this can be lower than starting health)
-		minHealth = 2
+		minHealth = 10
 		#The highest max health a player can reach, not considering the vanilla
 		# health cap and modifiers from other sources. 0 means 'unlimited'.
-		maxHealth = 0
+		maxHealth = 60
 		#EvalEx expression: On death, set the player's max health to this value. By default, there is no change.
 		setOnDeath = "maxHealth"
 
@@ -203,7 +203,7 @@
 	maxValue = 500.0
 	#Every second, this value is added to player and dimension difficulty.
 	#Enter a negative number to subtract difficulty instead.
-	changePerSecond = 0.000000001
+	changePerSecond = 1.0E-9
 	#Distance-based area modes will multiply distance by this value to get difficulty
 	distanceFactor = 0.0025
 	#Determines how difficulty is calculated.
@@ -225,7 +225,7 @@
 	#Difficulty tracked at the server level. Player difficulty is irrelevant.
 	areaMode = "DISTANCE_FROM_SPAWN"
 	#Distance to look for difficulty sources (players) when calculating area difficulty.
-	searchRadius = 32
+	searchRadius = 256
 	#Ignore the Y-axis in difficulty calculations
 	ignoreYAxis = true
 	#EvalEx expression: A multiplier for area difficulty calculations, typically based on the number of players in the search radius.
@@ -236,7 +236,7 @@
 
 	[difficulty.afk]
 		#Multiplier for changePerSecond when the player is not moving. A negative value will then decrease difficulty.
-		multiplier = 0.0
+		multiplier = 0.5
 		#If true, a comment will appear to notify when you are considered afk
 		message = true
 		#Time in seconds before afk change kicks in
