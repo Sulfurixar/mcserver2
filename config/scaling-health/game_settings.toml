@@ -141,7 +141,7 @@
 
 	[player.health]
 		#Starting player health, in half-hearts (20 = 10 hearts)
-		startingHealth = 20
+		startingHealth = 10
 		#The minimum amount of health a player can have (this can be lower than starting health)
 		minHealth = 2
 		#The highest max health a player can reach, not considering the vanilla
@@ -173,7 +173,7 @@
 	#minHealth -- Minimum health required for regen to be active
 	#maxHealth -- Maximum health at which regen will be active
 	[player.regen]
-		enabled = true
+		enabled = false
 		initialDelay = 20.0
 		tickDelay = 5.0
 		exhaustion = 0.1
@@ -200,10 +200,10 @@
 	#The minimum difficulty value a player can have. This can be smaller from startingValue.
 	minValue = 0.0
 	#The maximum difficulty value a player can have.
-	maxValue = 250.0
+	maxValue = 500.0
 	#Every second, this value is added to player and dimension difficulty.
 	#Enter a negative number to subtract difficulty instead.
-	changePerSecond = 0.0011575
+	changePerSecond = 0.000000001
 	#Distance-based area modes will multiply distance by this value to get difficulty
 	distanceFactor = 0.0025
 	#Determines how difficulty is calculated.
@@ -223,9 +223,9 @@
 	#Mix of WEIGHTED_AVERAGE and DISTANCE_FROM_SPAWN. Difficulty increases with time but also with distance
 	#SERVER_WIDE:
 	#Difficulty tracked at the server level. Player difficulty is irrelevant.
-	areaMode = "WEIGHTED_AVERAGE"
+	areaMode = "DISTANCE_FROM_SPAWN"
 	#Distance to look for difficulty sources (players) when calculating area difficulty.
-	searchRadius = 256
+	searchRadius = 32
 	#Ignore the Y-axis in difficulty calculations
 	ignoreYAxis = true
 	#EvalEx expression: A multiplier for area difficulty calculations, typically based on the number of players in the search radius.
@@ -236,7 +236,7 @@
 
 	[difficulty.afk]
 		#Multiplier for changePerSecond when the player is not moving. A negative value will then decrease difficulty.
-		multiplier = 0.5
+		multiplier = 0.0
 		#If true, a comment will appear to notify when you are considered afk
 		message = true
 		#Time in seconds before afk change kicks in
@@ -246,17 +246,17 @@
 	#putting in -difficulty- produces no change, putting 0 will reset difficulty after this action
 	[difficulty.mutators]
 		#EvalEx expression: A blight is killed by a player
-		onBlightKilled = "difficulty"
+		onBlightKilled = "difficulty - 10.0"
 		#EvalEx expression: A boss is killed by a player
-		onBossKilled = "difficulty"
+		onBossKilled = "difficulty + 50.0"
 		#EvalEx expression: A normal hostile mob is killed by a player
-		onHostileKilled = "difficulty"
+		onHostileKilled = "difficulty - 1.0"
 		#EvalEx expression: A peaceful mob is killed by a player
 		onPeacefulKilled = "difficulty"
 		#EvalEx expression: A player killed another player
 		onPlayerKilled = "difficulty + 1.0"
 		#EvalEx expression: A player dies
-		onPlayerDeath = "difficulty"
+		onPlayerDeath = "0"
 		#EvalEx expression: A player sleeps in a bed
 		onPlayerSleep = "difficulty"
 

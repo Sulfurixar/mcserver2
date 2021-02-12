@@ -37,7 +37,7 @@
 		[hearts.health.text]
 			#Style of health text
 			#Valid values: DISABLED, ROWS, HEALTH_AND_MAX, HEALTH_ONLY
-			style = "ROWS"
+			style = "HEALTH_AND_MAX"
 			#Health text scale, relative to its normal size (which varies by style)
 			scale = 1.0
 			#Fine-tune text position
@@ -50,7 +50,7 @@
 				#TRANSITION: Gradually goes from full color to empty color as health is lost
 				#PSYCHEDELIC: Taste the rainbow!
 				#SOLID: Just stays at full color regardless of health
-				style = "TRANSITION"
+				style = "PSYCHEDELIC"
 				#Color when health is full or style is SOLID
 				full = "#4CFF4C"
 				#Color when health is empty and style is TRANSITION
