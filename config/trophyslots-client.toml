@@ -2,7 +2,7 @@
 [client]
 	#Render settings for locked slots. 0 = Crossed out; 1 = Grayed out; 2 = Grayed and crossed out; 3 = no special rendering.
 	#Allowed Values: CROSS_ONLY, GREYED_OUT, GREY_CROSS, NONE
-	slotRenderType = "CROSS_ONLY"
+	slotRenderType = "GREY_CROSS"
 	#Walking in a Winter GUIland
 	special = true
 

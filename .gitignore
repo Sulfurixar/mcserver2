@@ -14,3 +14,8 @@ logs/**
 saves/**
 options.txt
 crash-reports/**
+
+# Server Files
+eula.txt
+./libraries/**
+./world/**

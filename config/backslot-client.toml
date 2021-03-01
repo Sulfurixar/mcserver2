@@ -1,0 +1,26 @@
+
+#Back Slot Configurations
+[backslot]
+
+	#General Settings
+	[backslot.general]
+		#Set this to true if you want update notifications about the mod on world load.
+		enableUpdateNotifications = true
+
+	#GUI Settings
+	[backslot.gui]
+		#Set this to true if you want to enable access to the GUI.
+		enableGui = true
+		#Set the x offset of the button location.
+		#Range: 0 ~ 159
+		xOffset = 154
+		#Set the y offset of the button location.
+		#Range: 0 ~ 149
+		yOffset = 5
+
+	#Render Settings
+	[backslot.render]
+		#Enables rendering for back slot on entities.
+		#The game has to be reloaded for the changes to take effect.
+		enableRendering = true
+
