@@ -17,5 +17,5 @@ crash-reports/**
 
 # Server Files
 eula.txt
-./libraries/**
-./world/**
+server.properties
+world/**
