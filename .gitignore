@@ -19,3 +19,4 @@ crash-reports/**
 eula.txt
 server.properties
 world/**
+!world/serverconfig/*
