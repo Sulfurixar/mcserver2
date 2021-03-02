@@ -1,0 +1,6 @@
+#Sets a specific world to hard mode.
+#This will decrease your maximum sanity to original capacity in 1.0.0 instead of the updated value.
+#This must be set before the world is loaded.
+#Any previous version will be updated to handle this.
+hardMode = false
+

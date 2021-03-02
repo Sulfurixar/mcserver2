@@ -1,0 +1,27 @@
+
+#Settings for the Scraping feature and enchant
+[scraping]
+	Enable = false
+	IsTreasureEnchantment = false
+	EnableToolScraping = true
+	EnableArmorScraping = true
+
+#Settings for the torch setting fire to entities
+[torch_fire]
+	Enable = true
+
+#Settings for the chopping block
+[chopping]
+	#The average number of uses before degrading to the next phase will be 1/DegradeChance. Default is 16.67 average uses.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	DegradeChance = 0.06
+	#Range: 0.0 ~ 1.7976931348623157E308
+	Exhaustion = 0.0025
+	#Range: 0.0 ~ 1.7976931348623157E308
+	EmptyHandFactor = 0.4
+
+#Settings for slime merging
+[slimes]
+	#If enabled, slimes will have new AI rules to feel attracted to other slimes, and if 4 slimes of the same size are nearby they will merge into a slime of higher size.
+	Merge = true
+
