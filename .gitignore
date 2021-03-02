@@ -18,5 +18,5 @@ crash-reports/**
 # Server Files
 eula.txt
 server.properties
-world/**
-!world/serverconfig/**
+world/*
+!world/serverconfig/

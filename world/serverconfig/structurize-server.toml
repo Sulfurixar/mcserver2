@@ -1,0 +1,20 @@
+
+#structurize.config.gameplay.comment
+[gameplay]
+	#structurize.config.ignoreschematicsfromjar.comment
+	ignoreSchematicsFromJar = false
+	#structurize.config.allowplayerschematics.comment
+	allowPlayerSchematics = true
+	#structurize.config.maxoperationspertick.comment
+	#Range: 0 ~ 100000
+	maxOperationsPerTick = 1000
+	#structurize.config.maxcachedchanges.comment
+	#Range: 0 ~ 100
+	maxCachedChanges = 10
+	#structurize.config.maxcachedschematics.comment
+	#Range: 0 ~ 100000
+	maxCachedSchematics = 100
+	#structurize.config.maxblockschecked.comment
+	#Range: 0 ~ 100000
+	maxBlocksChecked = 1000
+
