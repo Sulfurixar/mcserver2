@@ -40,7 +40,7 @@ command_require_creative = true
 	websocket_enabled = true
 	#The number of http requests a computer can make at one time. Additional requests will be queued, and sent when the running requests have finished. Set to 0 for unlimited.
 	#Range: > 0
-	max_requests = 16
+	max_requests = 3
 	#The number of websockets a computer can have open at one time. Set to 0 for unlimited.
 	#Range: > 1
 	max_websockets = 4
@@ -67,7 +67,7 @@ command_require_creative = true
 #Various options relating to peripherals.
 [peripheral]
 	#Enable Command Block peripheral support
-	command_block_enabled = false
+	command_block_enabled = true
 	#The range of Wireless Modems at low altitude in clear weather, in meters
 	#Range: 0 ~ 100000
 	modem_range = 64
@@ -76,10 +76,10 @@ command_require_creative = true
 	modem_high_altitude_range = 384
 	#The range of Wireless Modems at low altitude in stormy weather, in meters
 	#Range: 0 ~ 100000
-	modem_range_during_storm = 64
+	modem_range_during_storm = 32
 	#The range of Wireless Modems at maximum altitude in stormy weather, in meters
 	#Range: 0 ~ 100000
-	modem_high_altitude_range_during_storm = 384
+	modem_high_altitude_range_during_storm = 352
 	#Maximum amount of notes a speaker can play at once
 	#Range: > 1
 	max_notes_per_tick = 8
@@ -115,9 +115,9 @@ command_require_creative = true
 	#Terminal size of computers
 	[term_sizes.computer]
 		#Range: 1 ~ 255
-		width = 51
+		width = 52
 		#Range: 1 ~ 255
-		height = 19
+		height = 20
 
 	#Terminal size of pocket computers
 	[term_sizes.pocket_computer]

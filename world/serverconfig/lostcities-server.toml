@@ -1,6 +1,6 @@
 
 #General settings
 [profiles]
-	selectedProfile = ""
+	selectedProfile = "ancient"
 	selectedCustomJson = ""
 
