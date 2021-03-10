@@ -16,7 +16,7 @@
 	enabled = true
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
+	min = 0.0
 	#The maximum value for the attribute.
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
 	max = 65536.0
@@ -27,7 +27,7 @@
 	enabled = true
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
+	min = 0.0
 	#The maximum value for the attribute.
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
 	max = 65536.0
@@ -38,7 +38,7 @@
 	enabled = true
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
+	min = 0.0
 	#The maximum value for the attribute.
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
 	max = 65536.0
@@ -49,7 +49,7 @@
 	enabled = true
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
+	min = 0.0
 	#The maximum value for the attribute.
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
 	max = 65536.0
@@ -60,7 +60,7 @@
 	enabled = true
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
+	min = 0.0
 	#The maximum value for the attribute.
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
 	max = 65536.0
@@ -71,7 +71,7 @@
 	enabled = true
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
+	min = 0.0
 	#The maximum value for the attribute.
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
 	max = 65536.0
@@ -82,7 +82,7 @@
 	enabled = true
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
+	min = 0.0
 	#The maximum value for the attribute.
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
 	max = 65536.0
@@ -93,7 +93,7 @@
 	enabled = true
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
+	min = 0.0
 	#The maximum value for the attribute.
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
 	max = 65536.0
@@ -104,7 +104,7 @@
 	enabled = true
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
+	min = 0.0
 	#The maximum value for the attribute.
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
 	max = 65536.0
@@ -115,7 +115,7 @@
 	enabled = true
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
+	min = -1024.0
 	#The maximum value for the attribute.
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
 	max = 65536.0
@@ -126,7 +126,7 @@
 	enabled = true
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
+	min = 0.0
 	#The maximum value for the attribute.
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
 	max = 65536.0
@@ -137,315 +137,7 @@
 	enabled = true
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the unionlib:dig_speed attribute.
-[unionlib_dig_speed]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the doggytalents:generic.jump_power attribute.
-[doggytalents_generic_jump_power]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the doggytalents:generic.crit_chance attribute.
-[doggytalents_generic_crit_chance]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the doggytalents:generic.crit_bonus attribute.
-[doggytalents_generic_crit_bonus]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the botania:pixie_spawn_chance attribute.
-[botania_pixie_spawn_chance]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the carrots:material_durability attribute.
-[carrots_material_durability]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the carrots:material_reinforcement attribute.
-[carrots_material_reinforcement]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the carrots:material_precision attribute.
-[carrots_material_precision]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the carrots:material_charm attribute.
-[carrots_material_charm]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the carrots:charm attribute.
-[carrots_charm]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the carrots:material_vitality attribute.
-[carrots_material_vitality]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the carrots:vitality attribute.
-[carrots_vitality]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the carrots:material_piercing attribute.
-[carrots_material_piercing]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the carrots:material_voidpiercing attribute.
-[carrots_material_voidpiercing]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the carrots:material_knockback attribute.
-[carrots_material_knockback]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the carrots:material_scavenge_mend attribute.
-[carrots_material_scavenge_mend]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the carrots:material_parasitic_mend attribute.
-[carrots_material_parasitic_mend]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the carrots:material_animus attribute.
-[carrots_material_animus]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the dungeons_gear:attack_reach attribute.
-[dungeons_gear_attack_reach]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the forge:swim_speed attribute.
-[forge_swim_speed]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the forge:nametag_distance attribute.
-[forge_nametag_distance]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the forge:entity_gravity attribute.
-[forge_entity_gravity]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the forge:reach_distance attribute.
-[forge_reach_distance]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the vampirism:sundamage attribute.
-[vampirism_sundamage]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the vampirism:blood_exhaustion attribute.
-[vampirism_blood_exhaustion]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the vampirism:bite_damage attribute.
-[vampirism_bite_damage]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the survive:generic.cold_resistance attribute.
-[survive_generic_cold_resistance]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
-	#The maximum value for the attribute.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	max = 65536.0
-
-#Values for the survive:generic.heat_resistance attribute.
-[survive_generic_heat_resistance]
-	#Whether or not this attribute should be modified.
-	enabled = true
-	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
-	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
+	min = 0.0
 	#The maximum value for the attribute.
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
 	max = 65536.0
@@ -456,7 +148,7 @@
 	enabled = true
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
+	min = 0.0
 	#The maximum value for the attribute.
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
 	max = 1.7976931348623157E308
@@ -467,7 +159,7 @@
 	enabled = true
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
+	min = 0.0
 	#The maximum value for the attribute.
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
 	max = 1.7976931348623157E308
@@ -478,10 +170,285 @@
 	enabled = true
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	min = 4.9E-324
+	min = 0.0
 	#The maximum value for the attribute.
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
 	max = 1.7976931348623157E308
+
+#Values for the unionlib:dig_speed attribute.
+[unionlib_dig_speed]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = -1024.0
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the doggytalents:generic.jump_power attribute.
+[doggytalents_generic_jump_power]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 0.0
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the doggytalents:generic.crit_chance attribute.
+[doggytalents_generic_crit_chance]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 0.0
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the doggytalents:generic.crit_bonus attribute.
+[doggytalents_generic_crit_bonus]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 0.0
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the botania:pixie_spawn_chance attribute.
+[botania_pixie_spawn_chance]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 0.0
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the survive:generic.cold_resistance attribute.
+[survive_generic_cold_resistance]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 0.0
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the survive:generic.heat_resistance attribute.
+[survive_generic_heat_resistance]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 0.0
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the carrots:material_durability attribute.
+[carrots_material_durability]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 0.0
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the carrots:material_reinforcement attribute.
+[carrots_material_reinforcement]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 0.0
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the carrots:material_precision attribute.
+[carrots_material_precision]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 0.0
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the carrots:material_charm attribute.
+[carrots_material_charm]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 0.0
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the carrots:charm attribute.
+[carrots_charm]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 0.0
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the carrots:material_vitality attribute.
+[carrots_material_vitality]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 0.0
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the carrots:vitality attribute.
+[carrots_vitality]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 0.0
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the carrots:material_piercing attribute.
+[carrots_material_piercing]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 0.0
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the carrots:material_voidpiercing attribute.
+[carrots_material_voidpiercing]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 0.0
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the carrots:material_knockback attribute.
+[carrots_material_knockback]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 0.0
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the carrots:material_scavenge_mend attribute.
+[carrots_material_scavenge_mend]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 0.0
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the carrots:material_parasitic_mend attribute.
+[carrots_material_parasitic_mend]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 0.0
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the carrots:material_animus attribute.
+[carrots_material_animus]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 0.0
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the dungeons_gear:attack_reach attribute.
+[dungeons_gear_attack_reach]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 0.0
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the forge:swim_speed attribute.
+[forge_swim_speed]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 0.0
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the forge:nametag_distance attribute.
+[forge_nametag_distance]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 0.0
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the forge:entity_gravity attribute.
+[forge_entity_gravity]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = -8.0
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the forge:reach_distance attribute.
+[forge_reach_distance]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 0.0
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
 
 #Values for the minecolonies:mc_mob_damage attribute.
 [minecolonies_mc_mob_damage]
@@ -490,6 +457,39 @@
 	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
 	min = 1.0
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the vampirism:sundamage attribute.
+[vampirism_sundamage]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 0.0
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the vampirism:blood_exhaustion attribute.
+[vampirism_blood_exhaustion]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 0.0
+	#The maximum value for the attribute.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the vampirism:bite_damage attribute.
+[vampirism_bite_damage]
+	#Whether or not this attribute should be modified.
+	enabled = true
+	#The minimum vallue for the attribute. Changing this may have unforseen consequences.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	min = 0.0
 	#The maximum value for the attribute.
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
 	max = 65536.0

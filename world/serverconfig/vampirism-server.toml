@@ -31,7 +31,7 @@
 	#If enabled adds a craftable umbrella that can be used to slowly walk though sunlight without taking damage
 	umbrella = false
 	#If enabled, creatures are infected with Sanguinare Vampirism first instead of immediately being converted to a vampire when their blood is sucked dry
-	infectCreaturesSanguinare = false
+	infectCreaturesSanguinare = true
 
 	[server.sundamage]
 		#Whether vampires should receive sundamage in unknown dimensions
