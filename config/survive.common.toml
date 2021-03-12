@@ -26,24 +26,6 @@
 	"Enum: Temperature Mode" = "BLEND"
 	#
 	############################################
-	#This list defines the temperatures of blocks
-	#Changes to this list will require you to reset your game for them to be applied
-	#NOTE: Lava is set to 10.0
-	#-------------------------------------------
-	#Default: []
-	#-------------------------------------------
-	"Block Temperatures" = []
-	#
-	############################################
-	#This list defines the temperatures of blocks
-	#Blocks in this list will apply their temperatures only then they're "lit", or "active"
-	#Changes to this list will require you to reset your game for them to be applied
-	#-------------------------------------------
-	#Default: []
-	#-------------------------------------------
-	"Lit/Active Block Temperatures" = []
-	#
-	############################################
 	#The speed at which the players temperature will change from their current temperature to the target temperature.
 	#Setting it to 1 makes the players temperature change instantly to its target
 	#-------------------------------------------
@@ -157,16 +139,23 @@
 	#Default: true
 	#-------------------------------------------
 	"Boolean: Enable Stamina" = true
+	#
+	############################################
+	#Disabling this will allow the weight of certain armor pieces to affect your stamina
+	#-------------------------------------------
+	#Default: true
+	#-------------------------------------------
+	"Boolean: Enable Armor Weights" = true
 
 [Hygiene]
 	#
 	############################################
 	#Disabling this will disable this mods hygiene system
-	#This doesnt really do anything as there isn't really a hygiene system yet
+	#The hygiene system might be pretty buggy, so proceed with caution
 	#-------------------------------------------
-	#Default: true
+	#Default: false
 	#-------------------------------------------
-	"Boolean: Temperature Update Speed" = true
+	"Boolean: Enable Hygiene (Beta)" = false
 
 [Micellaneous]
 	#

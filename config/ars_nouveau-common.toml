@@ -165,6 +165,10 @@
 	wither = true
 	#Knockback enabled?
 	gust = true
+	#Summon Steed enabled?
+	summon_steed = true
+	#Summon Wolves enabled?
+	summon_wolves = true
 
 #Spell Cost
 [spell_cost]
@@ -342,6 +346,12 @@
 	#Knockback cost
 	#Range: > -2147483648
 	gust_cost = 15
+	#Summon Steed cost
+	#Range: > -2147483648
+	summon_steed_cost = 0
+	#Summon Wolves cost
+	#Range: > -2147483648
+	summon_wolves_cost = 0
 
 #Starting Spells
 ["Starter Spells"]

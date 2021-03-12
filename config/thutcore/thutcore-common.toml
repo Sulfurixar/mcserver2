@@ -20,4 +20,5 @@
 
 [misc]
 	debug = true
+	supress_warns = false
 

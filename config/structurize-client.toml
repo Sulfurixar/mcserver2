@@ -1,3 +1,4 @@
-#structurize.config.excludeentities.comment
-excludeEntities = ["minecraft:iron_golem", "minecraft:wolf"]
+#structurize.config.windowcachecap.comment
+#Range: 0 ~ 100
+windowCacheCap = 12
 
