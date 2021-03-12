@@ -11,7 +11,7 @@
 	#
 	#Log a stack-trace when rendering issues happen within a moving contraption.
 	explainRenderErrors = false
-	#
+	#No comment
 	#Range: 0.0 ~ 1.0
 	fanParticleDensity = 0.5
 	#
