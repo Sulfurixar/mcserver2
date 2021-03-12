@@ -116,7 +116,7 @@
 	#-------------------------------------------
 	#Default: true
 	#-------------------------------------------
-	"Boolean: Enable Sleep" = true
+	"Boolean: Enable Sleep" = false
 	#
 	############################################
 	#Disabling this will prevent the player from sleeping during the day even if they have the tiredness effect

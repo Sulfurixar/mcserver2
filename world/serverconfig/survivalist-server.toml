@@ -2,7 +2,7 @@
 #Settings for the Scraping feature and enchant
 [scraping]
 	Enable = false
-	IsTreasureEnchantment = false
+	IsTreasureEnchantment = true
 	EnableToolScraping = true
 	EnableArmorScraping = true
 
